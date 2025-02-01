@@ -1,0 +1,21 @@
+git init -> stores all the git history
+ls -a -> shows all the hidden folders
+git status -> current status of git folder
+git add . -> adds all the files to the git repository
+git add names.txt -> adds only names.txt file to git repository 
+git commit -m "added" -> tells that the changes are added
+git restore --staged names.txt -> remove guests from stage without taking their photo
+rm -rf names.txt -> delets names.txt
+ git reset f0d5357d8a224957f8d9f44ec098e29225d4b661 -> resets till this commit
+ git stash -> do not want to commit it and do not want to loose it. want to ask them to go to the back stage and whenever needed, will call you.
+ git stash pop -> all the people at the back stage come back to the stage
+ git stash clear -> removes all the stash work
+ git remote add origin https://github.com/Shrutz24/HTMLBeginning.git -> origin is the name of the url that we are adding
+ git remote -v -> lists all the urls attached to this folder
+git push origin master -> pushing the changes to master branch.
+git branch feature - > creating a feature branch
+git checkout feature -> git head points to the feature branch
+git merge feature -> now feature branch is a part of the main branch
+fork -> When you do not have access to some repository you can fork it into your own repository and now you can treat it as your personal project	
+upstream url is the url from which you have forked the project and origin is your own project url
+git pull upstream main -> taking the pull of upstream main branch
