@@ -24,5 +24,7 @@ public class Examples {
         String senctance = "Stop wishing start doing";
         System.out.println(Arrays.asList(senctance.split("")).stream().filter(x->x.toLowerCase().equals("i")).count());
 
+        //statefull and stateless operations : when elements are ought to be known(statefull) distinct, sort ; viceversa (stateless) map, filter
+
     }
 }
