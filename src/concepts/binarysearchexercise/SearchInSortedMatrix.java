@@ -52,7 +52,7 @@ public class SearchInSortedMatrix {
         if(matrix[rowStart + 1][colMid] == target){
             return new int[] {rowStart + 1, colMid};
         }
-
+        return new int[]{-1,-1};
     }
 
 }
